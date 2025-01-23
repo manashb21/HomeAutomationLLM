@@ -1,0 +1,274 @@
+[
+    {
+        "command": "Store room ko batti balera rakhnus.",
+        "intent": "single_room_control",
+        "rooms": [
+            "store room"
+        ],
+        "actions": [
+            {
+                "room": "store room",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Can you turn off the bathroom lights?",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Kausi ko batti dim gara.",
+        "intent": "single_room_control",
+        "rooms": [
+            "terrace"
+        ],
+        "actions": [
+            {
+                "room": "terrace",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Please brighten the dining area lights.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "adjust_brightness",
+                "brightness": 1.0
+            }
+        ]
+    },
+    {
+        "command": "Puja kotha ko batti on garnus.",
+        "intent": "single_room_control",
+        "rooms": [
+            "prayer room"
+        ],
+        "actions": [
+            {
+                "room": "prayer room",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Could you dim the corridor lights to 30%?",
+        "intent": "single_room_control",
+        "rooms": [
+            "corridor"
+        ],
+        "actions": [
+            {
+                "room": "corridor",
+                "action": "adjust_brightness",
+                "brightness": 0.3
+            }
+        ]
+    },
+    {
+        "command": "Switch off the chat lights.",
+        "intent": "single_room_control",
+        "rooms": [
+            "terrace"
+        ],
+        "actions": [
+            {
+                "room": "terrace",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Snaan kotha ko lights full bright bana.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 1.0
+            }
+        ]
+    },
+    {
+        "command": "Make the store room lights blue.",
+        "intent": "single_room_control",
+        "rooms": [
+            "store room"
+        ],
+        "actions": [
+            {
+                "room": "store room",
+                "action": "change_color",
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "command": "Bato ko lights off gara.",
+        "intent": "single_room_control",
+        "rooms": [
+            "corridor"
+        ],
+        "actions": [
+            {
+                "room": "corridor",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Please turn on the dining room lights.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Mandir ko batti haru dim garna milcha?",
+        "intent": "single_room_control",
+        "rooms": [
+            "prayer room"
+        ],
+        "actions": [
+            {
+                "room": "prayer room",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Turn on the corridor lights.",
+        "intent": "single_room_control",
+        "rooms": [
+            "corridor"
+        ],
+        "actions": [
+            {
+                "room": "corridor",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Bathroom ko lights dim gareko ho?",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 0.2
+            }
+        ]
+    },
+    {
+        "command": "Switch the store room lights to red.",
+        "intent": "single_room_control",
+        "rooms": [
+            "store room"
+        ],
+        "actions": [
+            {
+                "room": "store room",
+                "action": "change_color",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "command": "Please dim the dining area lights to half.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Khaana kotha ko batti off gardinus.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Adjust the chhat lights to low brightness.",
+        "intent": "single_room_control",
+        "rooms": [
+            "terrace"
+        ],
+        "actions": [
+            {
+                "room": "terrace",
+                "action": "adjust_brightness",
+                "brightness": 0.2
+            }
+        ]
+    },
+    {
+        "command": "Turn the puja kotha lights to green.",
+        "intent": "single_room_control",
+        "rooms": [
+            "prayer room"
+        ],
+        "actions": [
+            {
+                "room": "prayer room",
+                "action": "change_color",
+                "color": "green"
+            }
+        ]
+    },
+    {
+        "command": "Store room ko batti dim garnu parcha.",
+        "intent": "single_room_control",
+        "rooms": [
+            "store room"
+        ],
+        "actions": [
+            {
+                "room": "store room",
+                "action": "adjust_brightness",
+                "brightness": 0.4
+            }
+        ]
+    }
+]

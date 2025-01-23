@@ -1,0 +1,558 @@
+[
+    {
+        "command": "Store room ra bathroom ko batti balne.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "store room",
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "store room",
+                "action": "turn_on"
+            },
+            {
+                "room": "bathroom",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Can you turn off the lights in the terrace and corridor?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "terrace",
+            "corridor"
+        ],
+        "actions": [
+            {
+                "room": "terrace",
+                "action": "turn_off"
+            },
+            {
+                "room": "corridor",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Kausi ra puja kotha ko batti dim garna sakinchha?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "terrace",
+            "prayer room"
+        ],
+        "actions": [
+            {
+                "room": "terrace",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            },
+            {
+                "room": "prayer room",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Turn on the lights in the dining area and corridor.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "dining area",
+            "corridor"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_on"
+            },
+            {
+                "room": "corridor",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Puja kotha ra bathroom ko batti balera rakhnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "prayer room",
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "prayer room",
+                "action": "turn_on"
+            },
+            {
+                "room": "bathroom",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Please dim the lights in the store room and dining area.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "store room",
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "store room",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            },
+            {
+                "room": "dining area",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Snaan kotha ra kausi ko batti off garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bathroom",
+            "terrace"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_off"
+            },
+            {
+                "room": "terrace",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Switch off the lights in the corridor and prayer room.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "corridor",
+            "prayer room"
+        ],
+        "actions": [
+            {
+                "room": "corridor",
+                "action": "turn_off"
+            },
+            {
+                "room": "prayer room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Dining ra store room ko batti dim gara.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "dining area",
+            "store room"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            },
+            {
+                "room": "store room",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Please turn on the lights in the chhat and bathroom.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "terrace",
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "terrace",
+                "action": "turn_on"
+            },
+            {
+                "room": "bathroom",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Khaana kotha ra mandir ko batti off garna milcha?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "dining area",
+            "prayer room"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_off"
+            },
+            {
+                "room": "prayer room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Can you switch off the lights in the store room and bato?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "store room",
+            "corridor"
+        ],
+        "actions": [
+            {
+                "room": "store room",
+                "action": "turn_off"
+            },
+            {
+                "room": "corridor",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Bato ra puja kotha ko batti balera rakhnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "corridor",
+            "prayer room"
+        ],
+        "actions": [
+            {
+                "room": "corridor",
+                "action": "turn_on"
+            },
+            {
+                "room": "prayer room",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Dim the lights in the bathroom and dining area.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bathroom",
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            },
+            {
+                "room": "dining area",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Store ra chat ko batti off garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "store room",
+            "terrace"
+        ],
+        "actions": [
+            {
+                "room": "store room",
+                "action": "turn_off"
+            },
+            {
+                "room": "terrace",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Turn on the lights in the bathroom and store room.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bathroom",
+            "store room"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "store room",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Kausi ra bathroom ko batti adjust garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "terrace",
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "terrace",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            },
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Switch off the lights in the dining area and corridor.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "dining area",
+            "corridor"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_off"
+            },
+            {
+                "room": "corridor",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Mandir ra bato ko batti balne.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "prayer room",
+            "corridor"
+        ],
+        "actions": [
+            {
+                "room": "prayer room",
+                "action": "turn_on"
+            },
+            {
+                "room": "corridor",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Please dim the lights in the store room and kausi.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "store room",
+            "terrace"
+        ],
+        "actions": [
+            {
+                "room": "store room",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            },
+            {
+                "room": "terrace",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Off the lights in the prayer room and terrace.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "prayer room",
+            "terrace"
+        ],
+        "actions": [
+            {
+                "room": "prayer room",
+                "action": "turn_off"
+            },
+            {
+                "room": "terrace",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Khaana kotha ra chat ko batti balera rakhnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "dining area",
+            "terrace"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_on"
+            },
+            {
+                "room": "terrace",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Can you dim the lights in the bathroom and store room?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bathroom",
+            "store room"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            },
+            {
+                "room": "store room",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Store room ra puja kotha ko batti off garna milcha?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "store room",
+            "prayer room"
+        ],
+        "actions": [
+            {
+                "room": "store room",
+                "action": "turn_off"
+            },
+            {
+                "room": "prayer room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Switch on the lights in the corridor and balcony.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "corridor",
+            "terrace"
+        ],
+        "actions": [
+            {
+                "room": "corridor",
+                "action": "turn_on"
+            },
+            {
+                "room": "terrace",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Snaan kotha ra dining ko batti balne.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bathroom",
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "dining area",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the lights in the mandir and khaana kotha.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "prayer room",
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "prayer room",
+                "action": "turn_off"
+            },
+            {
+                "room": "dining area",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Chat ra store ko batti dim garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "terrace",
+            "store room"
+        ],
+        "actions": [
+            {
+                "room": "terrace",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            },
+            {
+                "room": "store room",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Turn on the lights in the bathroom and bato.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bathroom",
+            "corridor"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "corridor",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Switch off the lights in the store room and puja kotha.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "store room",
+            "prayer room"
+        ],
+        "actions": [
+            {
+                "room": "store room",
+                "action": "turn_off"
+            },
+            {
+                "room": "prayer room",
+                "action": "turn_off"
+            }
+        ]
+    }
+]

@@ -1,0 +1,614 @@
+[
+    {
+        "command": "Bathroom ko batti 50% ma dim gara.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Switch off the bathroom lights.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Toilet ko batti balera rakhnus.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Adjust the dining area light brightness to 70%.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "adjust_brightness",
+                "brightness": 0.7
+            }
+        ]
+    },
+    {
+        "command": "Dining room ko batti off garna milcha?",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Khaana khane thau ko batti balau.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Make the bathroom lights green.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "change_color",
+                "color": "green"
+            }
+        ]
+    },
+    {
+        "command": "Nuhaune thau ko batti balnu.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the dining room lights.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Brighten the bathroom lights to 80%.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 0.8
+            }
+        ]
+    },
+    {
+        "command": "Khaana khane thau ko batti blue banaideu.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "change_color",
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "command": "Could you dim the toilet lights, please?",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 0.3
+            }
+        ]
+    },
+    {
+        "command": "Dim the dining room lights to 40%.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "adjust_brightness",
+                "brightness": 0.4
+            }
+        ]
+    },
+    {
+        "command": "Dining area ko lights ko rang red ma change gara.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "change_color",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "command": "Turn on the lights in the bathroom.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Bathroom ko lights full brightness ma gara.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 1.0
+            }
+        ]
+    },
+    {
+        "command": "Khaana khane thau ma batti balnu.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Can you turn off the bathroom lights?",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Please change the dining area lights to yellow.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "change_color",
+                "color": "yellow"
+            }
+        ]
+    },
+    {
+        "command": "Snaan kotha ko batti dim garideu.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 0.3
+            }
+        ]
+    },
+    {
+        "command": "Turn on the dining room lights.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Dining area ko batti ko rang green ma change garna.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "change_color",
+                "color": "green"
+            }
+        ]
+    },
+    {
+        "command": "Set the bathroom lights to 60% brightness.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 0.6
+            }
+        ]
+    },
+    {
+        "command": "Dining area ko lights yellow ma change gara.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "change_color",
+                "color": "yellow"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the lights in the dining area.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Brighten the dining room lights to 90%.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "adjust_brightness",
+                "brightness": 0.9
+            }
+        ]
+    },
+    {
+        "command": "Bathroom ko lights band garna.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Khaana khane thau ko batti 70% ma dim garna milcha?",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "adjust_brightness",
+                "brightness": 0.7
+            }
+        ]
+    },
+    {
+        "command": "Set the bathroom light color to blue.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "change_color",
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "command": "Dining room lights ko rang red ma gara.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "change_color",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the bathroom lights.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Bathroom ko batti lai orange color ma gara.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "change_color",
+                "color": "orange"
+            }
+        ]
+    },
+    {
+        "command": "Switch on the dining room lights.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Brighten the bathroom lights to 100%.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 1.0
+            }
+        ]
+    },
+    {
+        "command": "Khaana khane thau ko batti balidiunuhos.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Bathroom ko batti ko rang pink ma gara.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "change_color",
+                "color": "pink"
+            }
+        ]
+    },
+    {
+        "command": "Please dim the dining room lights to 30%.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "adjust_brightness",
+                "brightness": 0.3
+            }
+        ]
+    },
+    {
+        "command": "Switch off the lights in the bathroom.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Set the dining area lights to purple.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "change_color",
+                "color": "purple"
+            }
+        ]
+    },
+    {
+        "command": "Toilet ko batti 60% ma dim gara.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 0.6
+            }
+        ]
+    },
+    {
+        "command": "Please turn on the lights in the dining area.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Change the bathroom light to white.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "change_color",
+                "color": "white"
+            }
+        ]
+    },
+    {
+        "command": "Dining room ko batti ko rang orange ma gara.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "change_color",
+                "color": "orange"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the dining room lights.",
+        "intent": "single_room_control",
+        "rooms": [
+            "dining area"
+        ],
+        "actions": [
+            {
+                "room": "dining area",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Adjust the bathroom light brightness to 20%.",
+        "intent": "single_room_control",
+        "rooms": [
+            "bathroom"
+        ],
+        "actions": [
+            {
+                "room": "bathroom",
+                "action": "adjust_brightness",
+                "brightness": 0.2
+            }
+        ]
+    }
+]

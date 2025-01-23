@@ -1,0 +1,874 @@
+[
+    {
+        "command": "Baithak ko lights dim gara ra bhaanchaa ko batti on garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            },
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Bhaanchaa kothaa ko batti balnu ra baithak ko batti off garna sakchau?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            },
+            {
+                "room": "living room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the lights in the baithak and dim the kitchen lights to 40%.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "turn_off"
+            },
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.4
+            }
+        ]
+    },
+    {
+        "command": "Baithak ko light color blue rakhnu ra bhansaa ko batti balai rakhnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "change_color",
+                "color": "blue"
+            },
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Adjust the brightness of the bhaanchaa light to 60% and turn off the baithak lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.6
+            },
+            {
+                "room": "living room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Bhanxa ko lights red garnu ra baithak kotha ko lights dim gara.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "change_color",
+                "color": "red"
+            },
+            {
+                "room": "living room",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Please turn on the kitchen light and dim the living room lights to 30%.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            },
+            {
+                "room": "living room",
+                "action": "adjust_brightness",
+                "brightness": 0.3
+            }
+        ]
+    },
+    {
+        "command": "Bhansaa ko batti balnu ra baithak ko batti green garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            },
+            {
+                "room": "living room",
+                "action": "change_color",
+                "color": "green"
+            }
+        ]
+    },
+    {
+        "command": "Set the bhaanchaa light to 75% brightness and turn off the baithak lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.75
+            },
+            {
+                "room": "living room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Baithak ko batti bali rakhnus ra bhancha ko lights blue ma set gara.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "turn_on"
+            },
+            {
+                "room": "kitchen",
+                "action": "change_color",
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the baithak lights and set the kitchen light brightness to 90%.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "turn_off"
+            },
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.9
+            }
+        ]
+    },
+    {
+        "command": "Bhancha ko lights off garnus ra baithak kothaa ko lights brightness 20% gara.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_off"
+            },
+            {
+                "room": "living room",
+                "action": "adjust_brightness",
+                "brightness": 0.2
+            }
+        ]
+    },
+    {
+        "command": "Can you dim the kitchen lights to 50% and turn on the baithak lights?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            },
+            {
+                "room": "living room",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Bhaanchaa ko light brightness 60% rakhnus ra baithak ko lights off garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.6
+            },
+            {
+                "room": "living room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Turn on the lights in the kitchen and dim the baithak lights to 40%.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            },
+            {
+                "room": "living room",
+                "action": "adjust_brightness",
+                "brightness": 0.4
+            }
+        ]
+    },
+    {
+        "command": "Bhanxa ko batti off garnus ra baithak ko lights blue garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_off"
+            },
+            {
+                "room": "living room",
+                "action": "change_color",
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the living room lights and set kitchen lights to 70% brightness.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "turn_off"
+            },
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.7
+            }
+        ]
+    },
+    {
+        "command": "Bhanxa ra baithak kotha ko batti balera rakhnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            },
+            {
+                "room": "living room",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Switch on the kitchen lights and dim the baithak lights to 35%.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            },
+            {
+                "room": "living room",
+                "action": "adjust_brightness",
+                "brightness": 0.35
+            }
+        ]
+    },
+    {
+        "command": "Baithak ko lights red garnus ra bhaanchaa ko batti off garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "change_color",
+                "color": "red"
+            },
+            {
+                "room": "kitchen",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Turn off bhaanchaa lights and brighten the baithak lights to 80%.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_off"
+            },
+            {
+                "room": "living room",
+                "action": "adjust_brightness",
+                "brightness": 0.8
+            }
+        ]
+    },
+    {
+        "command": "Bhanxa ko light blue ma rakhnus ra baithak ko batti off garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "change_color",
+                "color": "blue"
+            },
+            {
+                "room": "living room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Dim the baithak lights to 25% and turn on the kitchen lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "adjust_brightness",
+                "brightness": 0.25
+            },
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Bhaanchaa ko batti on garnus ra baithak kothaa ko lights brightness 50% gara.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            },
+            {
+                "room": "living room",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Turn off the kitchen lights and set the baithak lights to green.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_off"
+            },
+            {
+                "room": "living room",
+                "action": "change_color",
+                "color": "green"
+            }
+        ]
+    },
+    {
+        "command": "Bhancha ko lights green garnu ra baithak ko batti off garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "change_color",
+                "color": "green"
+            },
+            {
+                "room": "living room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Switch on the baithak lights and dim the kitchen lights to 45%.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "turn_on"
+            },
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.45
+            }
+        ]
+    },
+    {
+        "command": "Bhaanchaa ko lights brightness 30% rakhnus ra baithak ko batti on garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.3
+            },
+            {
+                "room": "living room",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Can you turn off the living room lights and set the kitchen lights to red?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "turn_off"
+            },
+            {
+                "room": "kitchen",
+                "action": "change_color",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "command": "Bhaanchaa ko batti blue garnus ra baithak ko lights off garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "change_color",
+                "color": "blue"
+            },
+            {
+                "room": "living room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the baithak lights and brighten the kitchen lights to 50%.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "turn_off"
+            },
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            }
+        ]
+    },
+    {
+        "command": "Bhanxa ko light brightness 70% rakhnus ra baithak kothaa ko lights off garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.7
+            },
+            {
+                "room": "living room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Turn on the living room lights and dim the kitchen lights to 60%.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "turn_on"
+            },
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.6
+            }
+        ]
+    },
+    {
+        "command": "Bhaanchaa ko lights off garnus ra baithak ko lights brightness 90% gara.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_off"
+            },
+            {
+                "room": "living room",
+                "action": "adjust_brightness",
+                "brightness": 0.9
+            }
+        ]
+    },
+    {
+        "command": "Set the kitchen lights to blue and turn off the baithak lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "change_color",
+                "color": "blue"
+            },
+            {
+                "room": "living room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Bhaanchaa ko batti balnu ra baithak ko lights red garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            },
+            {
+                "room": "living room",
+                "action": "change_color",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "command": "Switch off the kitchen lights and set the baithak lights to 80% brightness.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_off"
+            },
+            {
+                "room": "living room",
+                "action": "adjust_brightness",
+                "brightness": 0.8
+            }
+        ]
+    },
+    {
+        "command": "Bhaanchaa kothaa ko batti dim garnu ra baithak ko lights on garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.5
+            },
+            {
+                "room": "living room",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Turn on the kitchen lights and set the baithak lights to blue.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            },
+            {
+                "room": "living room",
+                "action": "change_color",
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "command": "Bhaanchaa ko lights 30% brightness ma rakhnus ra baithak ko batti off garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.3
+            },
+            {
+                "room": "living room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the living room lights and brighten the kitchen to 60%.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "turn_off"
+            },
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.6
+            }
+        ]
+    },
+    {
+        "command": "Bhanxa ra baithak kotha ko lights balera rakhnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_on"
+            },
+            {
+                "room": "living room",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Switch on the baithak lights and set kitchen lights to red.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "living room",
+            "kitchen"
+        ],
+        "actions": [
+            {
+                "room": "living room",
+                "action": "turn_on"
+            },
+            {
+                "room": "kitchen",
+                "action": "change_color",
+                "color": "red"
+            }
+        ]
+    },
+    {
+        "command": "Bhaanchaa ko light brightness 90% rakhnus ra baithak ko batti balnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.9
+            },
+            {
+                "room": "living room",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Can you dim the kitchen lights to 20% and turn on the baithak lights?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "adjust_brightness",
+                "brightness": 0.2
+            },
+            {
+                "room": "living room",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Bhanxa ko batti off garnus ra baithak kothaa ko lights brightness 40% gara.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "kitchen",
+            "living room"
+        ],
+        "actions": [
+            {
+                "room": "kitchen",
+                "action": "turn_off"
+            },
+            {
+                "room": "living room",
+                "action": "adjust_brightness",
+                "brightness": 0.4
+            }
+        ]
+    }
+]

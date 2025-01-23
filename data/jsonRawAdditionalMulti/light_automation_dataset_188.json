@@ -1,0 +1,851 @@
+[
+    {
+        "command": "Sutney kotha ko light dim gara ani baranda ko lights off garideu.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "0.5"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the lights in the bedroom and study room.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_off"
+            },
+            {
+                "room": "study room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Kotha ko batti on garera, baranda ko light ko color change to blue.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "balcony",
+                "action": "change_color",
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "command": "Please increase brightness in the bedroom and turn off study lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "1"
+            },
+            {
+                "room": "study room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Sutney kotha ra padhney kotha ko light dim garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "0.5"
+            },
+            {
+                "room": "study room",
+                "action": "adjust_brightness",
+                "brightness": "0.5"
+            }
+        ]
+    },
+    {
+        "command": "Bed room ko light off garera bardali ma batti jalauna.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_off"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Switch off the lights in the bedroom and change the color to green in study room.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_off"
+            },
+            {
+                "room": "study room",
+                "action": "change_color",
+                "color": "green"
+            }
+        ]
+    },
+    {
+        "command": "Kotha ko batti ko brightness 70% ma rakhnu ra baranda ko light on garnu.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "0.7"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Please turn on the bedroom light and off the study room lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "study room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Sutney kotha ko light ko color blue ma change garera, bardali ko light off gardinuhos.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "change_color",
+                "color": "blue"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Dim the bedroom lights and brighten the study room lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "0.3"
+            },
+            {
+                "room": "study room",
+                "action": "adjust_brightness",
+                "brightness": "1"
+            }
+        ]
+    },
+    {
+        "command": "Kotha ko batti off garera baranda ko light ko brightness 80% ma rakhnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_off"
+            },
+            {
+                "room": "balcony",
+                "action": "adjust_brightness",
+                "brightness": "0.8"
+            }
+        ]
+    },
+    {
+        "command": "Change the color to red in the bedroom and switch off the study room lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "change_color",
+                "color": "red"
+            },
+            {
+                "room": "study room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Sutney kotha ko light on garera bardali ko brightness 60% ma rakhnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "balcony",
+                "action": "adjust_brightness",
+                "brightness": "0.6"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the bedroom lights and change the color to yellow in the study room.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_off"
+            },
+            {
+                "room": "study room",
+                "action": "change_color",
+                "color": "yellow"
+            }
+        ]
+    },
+    {
+        "command": "Kotha ko batti ra bardali ko light off gardinuhos.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_off"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Please turn on the bedroom lights and change the study room light color to purple.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "study room",
+                "action": "change_color",
+                "color": "purple"
+            }
+        ]
+    },
+    {
+        "command": "Sutney kotha ko brightness 50% ma rakhnu ra bardali ko light on garna milcha?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "0.5"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Switch off the bedroom lights and study room lights on.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_off"
+            },
+            {
+                "room": "study room",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Kotha ko batti on garera, baranda ko light ko color change to pink.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "balcony",
+                "action": "change_color",
+                "color": "pink"
+            }
+        ]
+    },
+    {
+        "command": "Please increase brightness in the bedroom to 90% and off the study lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "0.9"
+            },
+            {
+                "room": "study room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Sutney kotha ra baranda ko light on garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the lights in the bedroom and dim the study room lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_off"
+            },
+            {
+                "room": "study room",
+                "action": "adjust_brightness",
+                "brightness": "0.3"
+            }
+        ]
+    },
+    {
+        "command": "Sutney kotha ko light ko color change garnus ra bardali ko lights off gardinuhos.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "change_color",
+                "color": "red"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Adjust the brightness of the bedroom light to 50% and turn off the study room lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "0.5"
+            },
+            {
+                "room": "study room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Kotha ko batti ko color to green ma change garera, baranda ko light ko brightness 30% ma rakhnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "change_color",
+                "color": "green"
+            },
+            {
+                "room": "balcony",
+                "action": "adjust_brightness",
+                "brightness": "0.3"
+            }
+        ]
+    },
+    {
+        "command": "Please make the bedroom lights yellow and turn off the study room lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "change_color",
+                "color": "yellow"
+            },
+            {
+                "room": "study room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Baranda ko batti off garera kotha ko light on garna milcha?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "balcony",
+            "bedroom"
+        ],
+        "actions": [
+            {
+                "room": "balcony",
+                "action": "turn_off"
+            },
+            {
+                "room": "bedroom",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Make the brightness of the bedroom light to 75% and study room lights off.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "0.75"
+            },
+            {
+                "room": "study room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Sutney kotha ko light on garera, baranda ko light off garnu.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Dim the bedroom lights and change the color to blue in study room.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "0.3"
+            },
+            {
+                "room": "study room",
+                "action": "change_color",
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "command": "Bardali ko light ko color to white ma change garera, kotha ko batti on garna milcha?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "balcony",
+            "bedroom"
+        ],
+        "actions": [
+            {
+                "room": "balcony",
+                "action": "change_color",
+                "color": "white"
+            },
+            {
+                "room": "bedroom",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Switch off the bedroom light and change the study room light color to orange.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_off"
+            },
+            {
+                "room": "study room",
+                "action": "change_color",
+                "color": "orange"
+            }
+        ]
+    },
+    {
+        "command": "Sutney kotha ko batti ra bardali ko light on gardinuhos.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Please adjust the brightness of the bedroom lights to 60% and turn off the study lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "0.6"
+            },
+            {
+                "room": "study room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Kotha ko light ko color to red ma change garnus ra bardali ko light on garna milcha?",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "change_color",
+                "color": "red"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Switch off the bedroom lights and make the study room lights purple.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_off"
+            },
+            {
+                "room": "study room",
+                "action": "change_color",
+                "color": "purple"
+            }
+        ]
+    },
+    {
+        "command": "Sutney kotha ko brightness 90% ma rakhnus ra bardali ko batti off garnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "0.9"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Turn on the bedroom lights and turn off the study room lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "study room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Kotha ko batti on garera, baranda ko light ko color to turquoise ma change garera rakhnus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_on"
+            },
+            {
+                "room": "balcony",
+                "action": "change_color",
+                "color": "turquoise"
+            }
+        ]
+    },
+    {
+        "command": "Please make the bedroom light color cyan and turn off the study room lights.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "change_color",
+                "color": "cyan"
+            },
+            {
+                "room": "study room",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Sutney kotha ko light ko brightness 70% ma rakhnu ra bardali ko light on gardinuhos.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "adjust_brightness",
+                "brightness": "0.7"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_on"
+            }
+        ]
+    },
+    {
+        "command": "Turn off the bedroom lights and adjust the study room lights brightness to 90%.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "study room"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "turn_off"
+            },
+            {
+                "room": "study room",
+                "action": "adjust_brightness",
+                "brightness": "0.9"
+            }
+        ]
+    },
+    {
+        "command": "Sutney kotha ko batti ko color to orange ma change garera, bardali ko light off gardinuhos.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "bedroom",
+            "balcony"
+        ],
+        "actions": [
+            {
+                "room": "bedroom",
+                "action": "change_color",
+                "color": "orange"
+            },
+            {
+                "room": "balcony",
+                "action": "turn_off"
+            }
+        ]
+    },
+    {
+        "command": "Turn off study room lights and change the bedroom light color to teal.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "study room",
+            "bedroom"
+        ],
+        "actions": [
+            {
+                "room": "study room",
+                "action": "turn_off"
+            },
+            {
+                "room": "bedroom",
+                "action": "change_color",
+                "color": "teal"
+            }
+        ]
+    }
+]

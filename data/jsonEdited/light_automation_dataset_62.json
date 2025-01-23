@@ -1,0 +1,566 @@
+[
+  {
+    "command": "Bhanxa ko light on garidinuhos.",
+    "intent": "single_room_control",
+    "rooms": ["kitchen"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Turn off the store room lights, please.",
+    "intent": "single_room_control",
+    "rooms": ["store room"],
+    "actions": [
+      {
+        "room": "store room",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Baithak kotha ko batti balnu.",
+    "intent": "single_room_control",
+    "rooms": ["living room"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Can you change the study room light color to green?",
+    "intent": "change_color",
+    "rooms": ["study room"],
+    "actions": [
+      {
+        "room": "study room",
+        "action": "change_color",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "command": "Sutney kotha ko batti dim garna sakchau?",
+    "intent": "single_room_control",
+    "rooms": ["bedroom"],
+    "actions": [
+      {
+        "room": "bedroom",
+        "action": "adjust_brightness",
+        "brightness": 0.5
+      }
+    ]
+  },
+  {
+    "command": "Change the living room lights to red.",
+    "intent": "change_color",
+    "rooms": ["living room"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "change_color",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "command": "Kitchen ko batti madhyam ujyaalo garnu.",
+    "intent": "adjust_brightness",
+    "rooms": ["kitchen"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "adjust_brightness",
+        "brightness": 0.5
+      }
+    ]
+  },
+  {
+    "command": "Please switch off the lights in the corridor.",
+    "intent": "single_room_control",
+    "rooms": ["corridor"],
+    "actions": [
+      {
+        "room": "corridor",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Mandir ko batti balnu.",
+    "intent": "single_room_control",
+    "rooms": ["prayer room"],
+    "actions": [
+      {
+        "room": "prayer room",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Baranda ko light off garera sutney kotha ko batti dim gardinus.",
+    "intent": "multi_room_control",
+    "rooms": ["balcony", "bedroom"],
+    "actions": [
+      {
+        "room": "balcony",
+        "action": "turn_off"
+      },
+      {
+        "room": "bedroom",
+        "action": "adjust_brightness",
+        "brightness": 0.2
+      }
+    ]
+  },
+  {
+    "command": "Turn on the lights in the terrace and living room.",
+    "intent": "multi_room_control",
+    "rooms": ["terrace", "living room"],
+    "actions": [
+      {
+        "room": "terrace",
+        "action": "turn_on"
+      },
+      {
+        "room": "living room",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Kausi ko batti blue color ma change garna sakchau?",
+    "intent": "change_color",
+    "rooms": ["terrace"],
+    "actions": [
+      {
+        "room": "terrace",
+        "action": "change_color",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "command": "Please make the study room lights brighter.",
+    "intent": "adjust_brightness",
+    "rooms": ["study room"],
+    "actions": [
+      {
+        "room": "study room",
+        "action": "adjust_brightness",
+        "brightness": 1.0
+      }
+    ]
+  },
+  {
+    "command": "Pooja kotha ko batti off gharna saknu hunchha?",
+    "intent": "single_room_control",
+    "rooms": ["prayer room"],
+    "actions": [
+      {
+        "room": "prayer room",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Adjust the brightness to low in the baithak.",
+    "intent": "adjust_brightness",
+    "rooms": ["living room"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "adjust_brightness",
+        "brightness": 0.3
+      }
+    ]
+  },
+  {
+    "command": "Living room ko batti turn off gara.",
+    "intent": "single_room_control",
+    "rooms": ["living room"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Change the bhansa lights to orange.",
+    "intent": "change_color",
+    "rooms": ["kitchen"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "change_color",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "command": "Make the lights in the corridor and baato bright.",
+    "intent": "multi_room_control",
+    "rooms": ["corridor", "corridor"],
+    "actions": [
+      {
+        "room": "corridor",
+        "action": "adjust_brightness",
+        "brightness": 1.0
+      },
+      {
+        "room": "corridor",
+        "action": "adjust_brightness",
+        "brightness": 1.0
+      }
+    ]
+  },
+  {
+    "command": "Bato ko batti green color ma change garna milcha?",
+    "intent": "change_color",
+    "rooms": ["corridor"],
+    "actions": [
+      {
+        "room": "corridor",
+        "action": "change_color",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "command": "Baithak kotha ra mandir ko batti on gharna saknu hunchha?",
+    "intent": "multi_room_control",
+    "rooms": ["living room", "prayer room"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "turn_on"
+      },
+      {
+        "room": "prayer room",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Turn off the lights in the balcony.",
+    "intent": "single_room_control",
+    "rooms": ["balcony"],
+    "actions": [
+      {
+        "room": "balcony",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Bhaanchaa kotha ko batti red color ma banaidinus.",
+    "intent": "change_color",
+    "rooms": ["kitchen"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "change_color",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "command": "Kotha ko batti balnu hos.",
+    "intent": "single_room_control",
+    "rooms": ["bedroom"],
+    "actions": [
+      {
+        "room": "bedroom",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Switch off the lights in the store.",
+    "intent": "single_room_control",
+    "rooms": ["store room"],
+    "actions": [
+      {
+        "room": "store room",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Make the light color in the study room blue.",
+    "intent": "change_color",
+    "rooms": ["study room"],
+    "actions": [
+      {
+        "room": "study room",
+        "action": "change_color",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "command": "Adjust the light in the puja kotha to low brightness.",
+    "intent": "adjust_brightness",
+    "rooms": ["prayer room"],
+    "actions": [
+      {
+        "room": "prayer room",
+        "action": "adjust_brightness",
+        "brightness": 0.2
+      }
+    ]
+  },
+  {
+    "command": "Make the terrace lights green.",
+    "intent": "change_color",
+    "rooms": ["terrace"],
+    "actions": [
+      {
+        "room": "terrace",
+        "action": "change_color",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "command": "Sutney kotha ra bhaancha ko batti off garidinus na.",
+    "intent": "multi_room_control",
+    "rooms": ["bedroom", "kitchen"],
+    "actions": [
+      {
+        "room": "bedroom",
+        "action": "turn_off"
+      },
+      {
+        "room": "kitchen",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Kitchen ko bati high brightness maa rakha.",
+    "intent": "adjust_brightness",
+    "rooms": ["kitchen"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "adjust_brightness",
+        "brightness": 1.0
+      }
+    ]
+  },
+  {
+    "command": "Please turn off the living room lights.",
+    "intent": "single_room_control",
+    "rooms": ["living room"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Bhanxa ko batti balera mandir ko batti pani on garidinus.",
+    "intent": "multi_room_control",
+    "rooms": ["kitchen", "prayer room"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "turn_on"
+      },
+      {
+        "room": "prayer room",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Sutney kotha ko batti orange color ma change garnus.",
+    "intent": "change_color",
+    "rooms": ["bedroom"],
+    "actions": [
+      {
+        "room": "bedroom",
+        "action": "change_color",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "command": "Adjust the brightness to medium in the bardali.",
+    "intent": "adjust_brightness",
+    "rooms": ["balcony"],
+    "actions": [
+      {
+        "room": "balcony",
+        "action": "adjust_brightness",
+        "brightness": 0.5
+      }
+    ]
+  },
+  {
+    "command": "Living room ra kausi ko batti blue color ma change gardinus.",
+    "intent": "multi_room_control",
+    "rooms": ["living room", "terrace"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "change_color",
+        "color": "blue"
+      },
+      {
+        "room": "terrace",
+        "action": "change_color",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "command": "Can you make the balcony lights dim?",
+    "intent": "single_room_control",
+    "rooms": ["balcony"],
+    "actions": [
+      {
+        "room": "balcony",
+        "action": "adjust_brightness",
+        "brightness": 0.2
+      }
+    ]
+  },
+  {
+    "command": "Praayer room ko batti on garna sakchau?",
+    "intent": "single_room_control",
+    "rooms": ["prayer room"],
+    "actions": [
+      {
+        "room": "prayer room",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Switch on the lights in the bedroom.",
+    "intent": "single_room_control",
+    "rooms": ["bedroom"],
+    "actions": [
+      {
+        "room": "bedroom",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Bhansa ko batti off garidinus.",
+    "intent": "single_room_control",
+    "rooms": ["kitchen"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Change the living room lights to purple.",
+    "intent": "change_color",
+    "rooms": ["living room"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "change_color",
+        "color": "purple"
+      }
+    ]
+  },
+  {
+    "command": "Baithak kothaa ko batti dim garnuhos.",
+    "intent": "adjust_brightness",
+    "rooms": ["living room"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "adjust_brightness",
+        "brightness": 0.3
+      }
+    ]
+  },
+  {
+    "command": "Turn off the lights in the study room.",
+    "intent": "single_room_control",
+    "rooms": ["study room"],
+    "actions": [
+      {
+        "room": "study room",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Bhaanchaa ko batti balnu.",
+    "intent": "single_room_control",
+    "rooms": ["kitchen"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Adjust the brightness to high in the bedroom.",
+    "intent": "adjust_brightness",
+    "rooms": ["bedroom"],
+    "actions": [
+      {
+        "room": "bedroom",
+        "action": "adjust_brightness",
+        "brightness": 1.0
+      }
+    ]
+  },
+  {
+    "command": "Switch on the lights in both the baatyo and kausi.",
+    "intent": "multi_room_control",
+    "rooms": ["corridor", "terrace"],
+    "actions": [
+      {
+        "room": "corridor",
+        "action": "turn_on"
+      },
+      {
+        "room": "terrace",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Mandir ko batti off gareko chha?",
+    "intent": "single_room_control",
+    "rooms": ["prayer room"],
+    "actions": [
+      {
+        "room": "prayer room",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Baithak ko batti yellow ma change gardinus.",
+    "intent": "change_color",
+    "rooms": ["living room"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "change_color",
+        "color": "yellow"
+      }
+    ]
+  }
+]

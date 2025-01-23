@@ -1,0 +1,174 @@
+[
+    {
+        "id": 1,
+        "command": "Sutney kotha ko lights off garera baithak kotha ko lights ujwalo banaidinus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "sutney kotha",
+            "baithak kotha"
+        ],
+        "actions": [
+            {
+                "room": "sutney kotha",
+                "action": "turn_off"
+            },
+            {
+                "room": "baithak kotha",
+                "action": "turn_on",
+                "brightness": "ujyalo"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "command": "Living room lights dim garai, bhaancha ko lights thulo ujyalo garidinus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "baithak kotha",
+            "bhaancha kotha"
+        ],
+        "actions": [
+            {
+                "room": "baithak kotha",
+                "action": "adjust_brightness",
+                "brightness": "madhuro"
+            },
+            {
+                "room": "bhaancha kotha",
+                "action": "turn_on",
+                "brightness": "ujyalo"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "command": "Sabai lights bright garidinus.",
+        "intent": "ambiguous",
+        "rooms": [],
+        "actions": [
+            {
+                "room": "all",
+                "action": "turn_on",
+                "brightness": "ujyalo"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "command": "Baithak ko lights dim garidinus, ra sutney kotha ko lights ujwalo banaidinus.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "baithak kotha",
+            "sutney kotha"
+        ],
+        "actions": [
+            {
+                "room": "baithak kotha",
+                "action": "adjust_brightness",
+                "brightness": "madhuro"
+            },
+            {
+                "room": "sutney kotha",
+                "action": "turn_on",
+                "brightness": "ujyalo"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "command": "Kitchen ko lights few minutes ko lagi thoda girai rakhnu parcha.",
+        "intent": "vague",
+        "rooms": [
+            "bhaancha kotha"
+        ],
+        "actions": [
+            {
+                "room": "bhaancha kotha",
+                "action": "adjust_brightness",
+                "brightness": "madhuro"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "command": "Turn off the living room lights and set the bedroom light to chahakilo.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "baithak kotha",
+            "sutney kotha"
+        ],
+        "actions": [
+            {
+                "room": "baithak kotha",
+                "action": "turn_off"
+            },
+            {
+                "room": "sutney kotha",
+                "action": "adjust_brightness",
+                "brightness": "chahakilo"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "command": "Baithak ma thik ujyalo garna pardaina, just thoda dim garidinus.",
+        "intent": "adjust_brightness",
+        "rooms": [
+            "baithak kotha"
+        ],
+        "actions": [
+            {
+                "room": "baithak kotha",
+                "action": "adjust_brightness",
+                "brightness": "madhuro"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "command": "Sabai room ko lights dim garidinus, please.",
+        "intent": "multi_room_control",
+        "rooms": [],
+        "actions": [
+            {
+                "room": "all",
+                "action": "adjust_brightness",
+                "brightness": "madhuro"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "command": "Sutney kotha lights bright rakhno parcha, ani bhaancha ma dim garna parcha.",
+        "intent": "multi_room_control",
+        "rooms": [
+            "sutney kotha",
+            "bhaancha kotha"
+        ],
+        "actions": [
+            {
+                "room": "sutney kotha",
+                "action": "turn_on",
+                "brightness": "ujyalo"
+            },
+            {
+                "room": "bhaancha kotha",
+                "action": "adjust_brightness",
+                "brightness": "madhuro"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "command": "Kasaiko lights bright rakhnu parcha, haina ta?",
+        "intent": "vague",
+        "rooms": [],
+        "actions": [
+            {
+                "room": "all",
+                "action": "turn_on",
+                "brightness": "ujyalo"
+            }
+        ]
+    }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "command": "Kitchen ko lights off garidinus.",
+    "intent": "single_room_control",
+    "rooms": ["kitchen"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Please turn on the store room lights.",
+    "intent": "single_room_control",
+    "rooms": ["store room"],
+    "actions": [
+      {
+        "room": "store room",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Baithak kotha and bhaancha ko lights full brightness ma gardinus.",
+    "intent": "multi_room_control",
+    "rooms": ["living room", "kitchen"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "adjust_brightness",
+        "brightness": 1.0
+      },
+      {
+        "room": "kitchen",
+        "action": "adjust_brightness",
+        "brightness": 1.0
+      }
+    ]
+  },
+  {
+    "command": "Turn off the balcony lights.",
+    "intent": "single_room_control",
+    "rooms": ["balcony"],
+    "actions": [
+      {
+        "room": "balcony",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "command": "Padhney kotha ko light blue color ma change garnus.",
+    "intent": "change_color",
+    "rooms": ["study room"],
+    "actions": [
+      {
+        "room": "study room",
+        "action": "change_color",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "command": "Can you adjust the brightness to 0.5 in the bedroom?",
+    "intent": "single_room_control",
+    "rooms": ["bedroom"],
+    "actions": [
+      {
+        "room": "bedroom",
+        "action": "adjust_brightness",
+        "brightness": 0.5
+      }
+    ]
+  },
+  {
+    "command": "Bhaanchaa kotha ko batti laal color ma change garnus.",
+    "intent": "change_color",
+    "rooms": ["kitchen"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "change_color",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "command": "Please turn on the corridor lights and dim the terrace lights to 0.2.",
+    "intent": "multi_room_control",
+    "rooms": ["corridor", "terrace"],
+    "actions": [
+      {
+        "room": "corridor",
+        "action": "turn_on"
+      },
+      {
+        "room": "terrace",
+        "action": "adjust_brightness",
+        "brightness": 0.2
+      }
+    ]
+  },
+  {
+    "command": "Bato ko lights off garera baranda ko lights on gardinus.",
+    "intent": "multi_room_control",
+    "rooms": ["corridor", "balcony"],
+    "actions": [
+      {
+        "room": "corridor",
+        "action": "turn_off"
+      },
+      {
+        "room": "balcony",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "command": "Could you change the light color to green in puja kotha, please?",
+    "intent": "change_color",
+    "rooms": ["prayer room"],
+    "actions": [
+      {
+        "room": "prayer room",
+        "action": "change_color",
+        "color": "green"
+      }
+    ]
+  }
+]

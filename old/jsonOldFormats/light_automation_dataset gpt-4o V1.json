@@ -1,0 +1,148 @@
+[
+  {
+    "id": 1,
+    "command": "Baithak ko lights full bright banaidina sakchhau?",
+    "intent": "adjust_brightness",
+    "rooms": ["baithak"],
+    "actions": [
+      {
+        "room": "baithak",
+        "action": "adjust_brightness",
+        "brightness": "high"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "command": "Kripaya sutney kotha ra bhaancha kotha ko lights off garnus.",
+    "intent": "multi_room_control",
+    "rooms": ["sutney kotha", "bhaancha"],
+    "actions": [
+      {
+        "room": "sutney kotha",
+        "action": "turn_off"
+      },
+      {
+        "room": "bhaancha",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "command": "Baithak ra bhaancha maa lights dim garnu.",
+    "intent": "multi_room_control",
+    "rooms": ["baithak", "bhaancha"],
+    "actions": [
+      {
+        "room": "baithak",
+        "action": "adjust_brightness",
+        "brightness": "low"
+      },
+      {
+        "room": "bhaancha",
+        "action": "adjust_brightness",
+        "brightness": "low"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "command": "Hamro baithak ko lights chahakilo garna kasari garna sakchhau?",
+    "intent": "adjust_brightness",
+    "rooms": ["baithak"],
+    "actions": [
+      {
+        "room": "baithak",
+        "action": "adjust_brightness",
+        "brightness": "high"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "command": "All rooms ko lights bright garidinus.",
+    "intent": "vague_command",
+    "rooms": ["all"],
+    "actions": [
+      {
+        "room": "all",
+        "action": "adjust_brightness",
+        "brightness": "high"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "command": "Sutney kotha ra baithak lights dim garera baaki sab ujyalo banaunus.",
+    "intent": "multi_room_control",
+    "rooms": ["sutney kotha", "baithak", "all"],
+    "actions": [
+      {
+        "room": "sutney kotha",
+        "action": "adjust_brightness",
+        "brightness": "low"
+      },
+      {
+        "room": "baithak",
+        "action": "adjust_brightness",
+        "brightness": "low"
+      },
+      {
+        "room": "all",
+        "action": "adjust_brightness",
+        "brightness": "high"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "command": "Bhaancha kotha ko lights ma alikiti ujyaalopana dekhau.",
+    "intent": "adjust_brightness",
+    "rooms": ["bhaancha"],
+    "actions": [
+      {
+        "room": "bhaancha",
+        "action": "adjust_brightness",
+        "brightness": "medium"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "command": "Could you switch off the bedroom lights?",
+    "intent": "turn_off",
+    "rooms": ["bedroom"],
+    "actions": [
+      {
+        "room": "bedroom",
+        "action": "turn_off"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "command": "Baithak ko lights madhuro garna sakdachhau?",
+    "intent": "adjust_brightness",
+    "rooms": ["baithak"],
+    "actions": [
+      {
+        "room": "baithak",
+        "action": "adjust_brightness",
+        "brightness": "low"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "command": "Sabai lights off garidinus.",
+    "intent": "turn_off_all",
+    "rooms": ["all"],
+    "actions": [
+      {
+        "room": "all",
+        "action": "turn_off"
+      }
+    ]
+  }
+]

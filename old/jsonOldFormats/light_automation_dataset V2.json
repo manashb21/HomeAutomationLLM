@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "command": "Sutney kotha ma lights off garera baithak lai bright garidinus.",
+    "intent": "multi_room_control",
+    "rooms": ["bedroom", "living room"],
+    "actions": [
+      {
+        "room": "bedroom",
+        "action": "turn_off"
+      },
+      {
+        "room": "living room",
+        "action": "adjust_brightness",
+        "brightness": "high"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "command": "Sabai lights bright garidinus.",
+    "intent": "ambiguous",
+    "rooms": ["all"],
+    "actions": [
+      {
+        "room": "all",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "command": "Bhaancha kotha ma lights dim garera baithak ma thap ujyaalo garidinus.",
+    "intent": "multi_room_control",
+    "rooms": ["kitchen", "living room"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "adjust_brightness",
+        "brightness": "low"
+      },
+      {
+        "room": "living room",
+        "action": "adjust_brightness",
+        "brightness": "high"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "command": "Sutney kotha ma lights maadharo banaunus.",
+    "intent": "single_action_control",
+    "rooms": ["bedroom"],
+    "actions": [
+      {
+        "room": "bedroom",
+        "action": "adjust_brightness",
+        "brightness": "low"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "command": "Baithak ko lights on garera kitchen ko lights pani bright garidinus.",
+    "intent": "multi_room_control",
+    "rooms": ["living room", "kitchen"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "turn_on"
+      },
+      {
+        "room": "kitchen",
+        "action": "adjust_brightness",
+        "brightness": "high"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "command": "Bhaancha kotha ma lights off garera basne sthal bright garidinus.",
+    "intent": "multi_room_control",
+    "rooms": ["kitchen", "living room"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "turn_off"
+      },
+      {
+        "room": "living room",
+        "action": "adjust_brightness",
+        "brightness": "high"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "command": "Baas ko lights thoko khan ting kr dina.",
+    "intent": "ambiguous",
+    "rooms": ["all"],
+    "actions": [
+      {
+        "room": "all",
+        "action": "adjust_brightness"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "command": "Baithak lights dim garera sutney kotha ma thap ujyaalo garidinus, please.",
+    "intent": "multi_room_control",
+    "rooms": ["living room", "bedroom"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "adjust_brightness",
+        "brightness": "low"
+      },
+      {
+        "room": "bedroom",
+        "action": "adjust_brightness",
+        "brightness": "high"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "command": "Bhaancha ko lights off garera sabai room ma ujyalo rakhnus.",
+    "intent": "multi_room_control",
+    "rooms": ["kitchen", "all"],
+    "actions": [
+      {
+        "room": "kitchen",
+        "action": "turn_off"
+      },
+      {
+        "room": "all",
+        "action": "turn_on"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "command": "Mild light uthau, baithak ma.",
+    "intent": "single_action_control",
+    "rooms": ["living room"],
+    "actions": [
+      {
+        "room": "living room",
+        "action": "adjust_brightness",
+        "brightness": "medium"
+      }
+    ]
+  }
+]
