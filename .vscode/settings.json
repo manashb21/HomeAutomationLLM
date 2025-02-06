@@ -1,8 +1,0 @@
-{
-  "files.exclude": {
-    "share": true,
-    "annotator_data.csv": true,
-    "homeAuto": true,
-    "old": true
-  }
-}
