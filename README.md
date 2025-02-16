@@ -2,7 +2,7 @@
 
 This repository contains the implementation, dataset, fine-tuning scripts, and evaluation metrics for the thesis:
 
-> **"Fine-Tuning Low-Parameter Large Language Models for Structured YAML-Based Automation in Nepali-English."**
+> **"OPTIMIZING LARGE LANGUAGE MODELS FOR LIGHT AUTOMATION: FINE-TUNING FOR CODE-MIXED NEPALI-ENGLISH COMMAND INTERPRETATION "**
 
 This research explores how **low-parameter LLMs (Llama 3.2 1B)** can be fine-tuned and optimized to generate **structured YAML automation commands**, enabling efficient command processing in **low-resource environments**.
 
@@ -49,10 +49,12 @@ The model was fine-tuned using **LoRA and QLoRA** to optimize efficiency:
 **1️⃣ Accuracy Metrics:**
 - **Exact Match Accuracy:** Measures if the YAML output **exactly matches** the expected response.
 - **Partial Match Accuracy:** Checks how many **key-value pairs** in YAML outputs are correctly generated.
+- 85% exact match, 87% partial match accuracy
 
 **2️⃣ Inference Efficiency:**
 - **Benchmarking performed on CPU (Ryzen 7 7700 & Ryzen 5 7530U).**
 - **Latency & RAM usage** tracked to measure real-world feasibility.
+- **Found** low latency (0.2s inference time)
 
 ---
 
