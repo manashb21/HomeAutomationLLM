@@ -1,4 +1,4 @@
-# Fine-Tuning Low-Parameter Large Language Models for Structured YAML-Based Automation in Nepali-English
+# OPTIMIZING LARGE LANGUAGE MODELS FOR LIGHT AUTOMATION: FINE-TUNING FOR CODE-MIXED NEPALI-ENGLISH COMMAND INTERPRETATION 
 
 This repository contains the implementation, dataset, fine-tuning scripts, and evaluation metrics for the thesis:
 
