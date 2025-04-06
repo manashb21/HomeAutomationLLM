@@ -22,7 +22,7 @@ The project involves:
 
 ## 📊 Dataset Generation & Preprocessing
 
-- A **synthetic dataset of ~6,000 Nepali-English automation commands** was generated using OpenAI API.
+- A **synthetic dataset of ~11,000 Nepali-English automation commands** was generated using OpenAI API.
 - Data balancing techniques ensured **equal representation of intents, rooms, and actions**.
 - The dataset was **split into 70% training, 15% validation, and 15% test sets**, maintaining class balance.
 
